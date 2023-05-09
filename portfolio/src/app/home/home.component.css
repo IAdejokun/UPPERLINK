@@ -1,0 +1,198 @@
+.hero{
+    background: rgba(0, 0, 0, 0.534);
+    height: 91vh;
+}
+
+h1{
+    font-family: var(--libre);
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 50px;
+    color: white;
+}
+
+.heroContent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+
+button{
+    padding:10px 30px;
+    margin-left: 20px;
+    font-family: var(--poppins);
+}
+
+.subHero > button{
+    background-color: transparent;
+    font-size: large;
+    color: white;
+    cursor: pointer;
+} 
+
+
+
+.herohireMeBtn{
+    border:1.4px solid var(--brownishGold);
+    outline: none;
+    transition: all ease-in-out 400ms;
+}
+
+.herohireMeBtn:hover{
+    color: white;
+    border: transparent;
+    outline: none;
+    background-color: var(--brownishGold) !important;
+    padding:10px 30px;
+}
+
+.heroProjectsAndBlogBtn{
+    border: none;
+    transition: all ease-in-out 400ms;
+}
+
+.heroProjectsAndBlogBtn:hover{
+    color: rgba(255, 255, 255, 0.788) !important;
+    border: transparent;
+    outline: none;
+    padding:10px 30px;
+}
+
+.backVid{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+   
+}   
+
+
+
+.subHero i{
+    margin-right: 4px;
+}
+
+
+.sectionOne{
+    background-color: black;
+    padding-bottom: 30px;
+}
+
+.passion{
+    width: 83%;
+    margin: 0 auto;
+}
+
+.passionOne{
+    display: flex;
+    padding-top: 120px;
+}
+
+.passionTwo{
+    display: flex;
+    margin-top:120px;
+}
+
+.passionOne .left img{
+    width:470px;
+    height: 650px;
+}
+
+.passionOne .right h3{
+    color: white;
+    font-family: var(--libre);
+    padding-top:20%;
+    /* font-weight: 600; */
+}
+
+.passionOne .right p{
+    width: 80%;
+    color: rgba(255, 255, 255, 0.781);
+    padding-top: 5%;
+    font-family: var(--poppins);
+    font-weight: 200;
+ }
+
+ .passionTwo .left h3{
+    color: white;
+    font-family: var(--libre);
+    padding-top:20%;
+    /* font-weight: 600; */
+ }
+
+ 
+
+.passionTwo .left p{
+    width: 80%;
+    color: rgba(255, 255, 255, 0.781);
+    padding-top: 5%;
+    font-family: var(--poppins);
+    font-weight: 200;
+}
+
+.passionTwo .right img{
+   width:450px;
+    height: 650px;
+    margin-left: 60px;
+}
+
+.left, .right{
+    flex: 1;
+}
+
+.sectionTwo{
+    background-color: black;
+    padding-top: 40px;
+    color: white;
+}
+.sectionTwo h2{
+    text-align: center;
+    font-family: var(--libre);
+    font-size: 50px;
+    padding-top: 60px;
+    margin-bottom: 40px;
+}
+
+.cardContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.homeCard{
+    flex-basis: 30%;
+    padding: 10px;
+   
+    margin-top: 20px;
+    background-color: black;
+    color: white;
+    font-family: var(--poppins);
+    font-weight: 200;
+}
+
+.homeCard h4{
+    font-family: var(--mont);
+}
+
+.homeCard button{
+    background: var(--brownishGold);
+    border: none;
+    outline: none;
+    color: white;
+    font-weight: 350;
+    width: 50%;
+    transition: all ease-in 300ms;
+    position: relative;
+    right: 20px;
+}
+
+.homeCard button:hover{
+    color: black;
+    background-color: white;
+    font-weight: 500;
+}

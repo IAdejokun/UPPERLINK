@@ -1,0 +1,107 @@
+.homeNav{
+    font-family: var(--libre);
+    margin-left: 5%;
+    font-size: 18px;
+    font-weight: 400;
+}
+nav{
+    
+    background: rgba(0, 0, 0, 0.534);
+    /* position: sticky; */
+    display: flex;
+    padding: 18px;
+    width: 100%;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+   
+}
+
+nav a:hover{
+    color: gold;
+}
+
+.midCol{
+   position: relative;
+   left: -220px;
+    margin: auto;
+}
+
+.midCol a {
+    margin-left: 52%;
+    font-family: var(--poppins);
+    font-size: 18px;
+    font-weight: 400;
+}
+
+footer{
+    background-color: black;
+}
+
+footer .footerSectionOne{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 45px;
+    background-color: black;
+    border-top: 0.1px solid rgba(255, 255, 255, 0.26);
+    border-bottom: 0.1px solid rgba(255, 255, 255, 0.26);
+    padding-right: 60px;
+}
+
+.emailFooter button{
+    background: none;
+    padding: 10px 25px;
+    outline: none;
+    border: none;
+    color: var(--brownishGold);
+    transition: all ease-in;
+    font-size: 20px;
+    font-family: var(--mont);
+}
+
+.emailFooter button:hover{
+    text-decoration: underline;
+}
+
+.initialsFooter a{
+    font-size: 30px;
+    color: white;
+    font-family: var(--libre);
+    text-decoration: none;
+    
+}
+
+.initialsFooter a:hover{
+    border-bottom: 1px solid white;
+    
+}
+
+.socialsBtn{
+  display: flex;
+
+}
+.socialsBtn button{
+    background:none;
+    outline: none;
+    padding:0px 10px;
+    color:var(--brownishGold);
+    border: none;
+    font-size: 30px;
+    transition: all ease-in 150ms;
+}
+
+.socialsBtn button:hover{
+    font-size: 35px;
+    color: white;
+    
+}
+.footerSectionTwo{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding:20px ;
+    font-family: var(--mont);
+}

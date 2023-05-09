@@ -1,0 +1,36 @@
+
+<nav>
+  <a routerLink="" class="homeNav">IA</a>
+  <div class="midCol">
+    <a routerLink="/project-and-blog">Projects</a>
+
+    <a routerLink="/about">About</a>
+  
+  <a routerLink="/contact">Contact</a>
+  </div>
+  
+</nav>
+
+
+<router-outlet></router-outlet>
+
+<footer>
+    <section class="footerSectionOne">
+    <div class="emailFooter">
+    <button (click)="openEmail()">Email Me</button>
+    </div>
+    <div class="initialsFooter">
+      <a routerLink="">IA</a>
+    </div>
+    <div class="socialsBtn">
+      <button (click)="openGithub()"><i class="fa-brands fa-github"></i></button>
+      <button (click)="openTwitter()"><i class="fa-brands fa-square-twitter"></i></button>
+      <button (click)="openLinkedIn()"><i class="fa-brands fa-linkedin"></i></button>
+    </div>
+  </section>
+
+  <section class="footerSectionTwo">
+      <p>&copy; {{currentYear}} Adejokun Ibukunoluwa. All rights reserved.</p>
+    <p>Read <span><a href="#">Privacy Policy</a></span></p>
+    </section>
+</footer>

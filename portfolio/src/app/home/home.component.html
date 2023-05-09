@@ -1,0 +1,62 @@
+  <main>
+    <header class="hero">
+      <video [autoplay]=true [muted] = true [playsInline]=true loop class="backVid">
+        <source src="\assets\heroVid.mp4">
+      </video>
+        <div class="heroContent">
+            <h1>Upcoming Worldclass Developer </h1>
+            <h1>& Coffee Addict</h1>
+        <div class="subHero">
+            <button routerLink="./contact" class="herohireMeBtn"><i class="fa-solid fa-briefcase"></i>HIRE ME</button>
+            <button routerLink="./project-and-blog" class="heroProjectsAndBlogBtn"> <i class="fa-solid fa-book-open"></i> My Projects & Blog</button>
+        </div>
+        </div>
+        
+    </header>
+
+    <section class="sectionOne">
+
+    
+    <section class="passion">
+      <section class="passionOne">
+        <div class="left" data-aos="zoom-in-right" data-aos-duration="3000"> 
+          <img src="assets\passionOne.jpg" [alt]=passionOne>
+        </div>
+        <div class="right">
+            <h3>&ldquo;{{passionHeaderOne}} &rdquo;</h3>
+          <p>{{passionTextOne}}</p>
+        </div>
+      </section>
+      <section class="passionTwo">
+        <div class="left">
+          <h3>&ldquo;{{passionHeaderTwo}}&rdquo;</h3>
+          <p>{{passionTextTwo}}</p>
+        </div>
+        <div class="right" data-aos="zoom-in-left" data-aos-duration="3000">
+          <img src="assets\passionTwo.jpg" [alt]= passionTwo>
+        </div>
+      </section>
+    </section>
+  </section>
+
+  <section class="sectionTwo">
+
+    <h2>Skillsets & Services.</h2>
+
+    <div class="cardContainer">
+      
+    <div class="card homeCard" *ngFor="let card of cards">
+      <h4>{{card.title}}</h4>
+      <p>{{card.description}}</p>
+      <ng-container *ngIf="card.buttonName">
+        <button (click)="goToSite(card.url)">{{card.buttonName}}</button>
+      </ng-container>
+    </div>
+    
+    
+  </div>
+
+  </section>
+  </main>
+
+ 
